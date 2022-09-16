@@ -1,10 +1,17 @@
-<!-- markdown-link-check-disable -->
-<!-- Absolute links fail markdown-link-check. That's okay because this
-     file isn't meant to be viewed outside docsify. -->
-- Getting started
-  - [Local installation](/getting_started/README.md)
-- Content
-- Configuration
-- Infrastructure
-- Lifecycle
-<!-- markdown-link-check-enable-->
+  - configuration
+    - [initializer](/configuration/initializer.md)
+    - [theming](/configuration/theming.md)
+  - content
+    - [attributes](/content/attributes.md)
+    - [forms](/content/forms.md)
+    - [ocl](/content/ocl.md)
+  - getting_started
+    - [useful links](/getting_started/useful-links.md)
+  - infrastructure
+    - [local](/infrastructure/local.md)
+    - [qa](/infrastructure/qa.md)
+  - lifecycle
+    - [data protection](/lifecycle/data-protection.md)
+    - [handover](/lifecycle/handover.md)
+    - [maintenance](/lifecycle/maintenance.md)
+    - [monitoring](/lifecycle/monitoring.md)

@@ -9,6 +9,12 @@
   <link rel="icon" href="msf.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <style>
+    .sidebar-nav ul, .sidebar nav ul {
+        text-transform: capitalize;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -21,6 +27,7 @@
       auto2top: true,
       loadSidebar: true,
       subMaxLevel: 2,
+      sidebarDisplayLevel: 2,
       relativePath: true,
       plugins: [
         EditOnGithubPlugin.create("https://github.com/michaelbontyes/implementing-openmrs3/edit/main/docs/")
@@ -28,7 +35,8 @@
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-typescript.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
