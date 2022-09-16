@@ -23,3 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Generate sidebar
+        run: docsify-auto-sidebar -d docs
+
