@@ -17,6 +17,6 @@ jobs:
         run: npm test
         
       - name: Commit
-        uses: michaelbontyes/implementing-openmrs3@latest
+        uses: michaelbontyes/implementing-openmrs3@main
         with:
           commit_message: Auto-updated Sidebar
