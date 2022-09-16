@@ -23,8 +23,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install --immutable
+        run: yarn install 
         
       - name: Generate sidebar navigation
         run: yarn run docs
