@@ -21,9 +21,9 @@ jobs:
           restore-keys: npm-
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install --immutable
         
       - name: Generate Sidebar
-        run: docsify-auto-sidebar -d docs
+        run: yarn run docs
 
 
