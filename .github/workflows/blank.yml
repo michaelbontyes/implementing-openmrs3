@@ -26,4 +26,4 @@ jobs:
         run: yarn install 
         
       - name: Generate sidebar navigation
-        run: yarn run docs
+        run: docsify-auto-sidebar -d docs
