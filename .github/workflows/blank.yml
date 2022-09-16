@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: npm i docsify-tools
+        run: yarn add docsify-tools
 
       - run: docsify-auto-sidebar -d docs
 
