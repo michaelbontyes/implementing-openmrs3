@@ -21,8 +21,6 @@ jobs:
           restore-keys: npm-
 
       - name: Install dependencies
-        run: npm install
+        run: npm install && docsify-auto-sidebar -d docs
 
-      - name: Generate sidebar
-        run: docsify-auto-sidebar -d docs
 
