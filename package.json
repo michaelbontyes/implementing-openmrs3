@@ -3,8 +3,8 @@
   "workspaces": [
   ],
   "scripts": {
-    "run:docs": "docsify-auto-sidebar -d docs"
-  },
+    "docs": "docsify-auto-sidebar -d docs"
+  }
   "devDependencies": {
     "docsify": "^4.12.2"
   },
