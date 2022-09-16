@@ -1,14 +1,6 @@
 {
     "name": "docs",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-      "test": "docsify-auto-sidebar -d ../implementing-openmrs3/docs"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "dependencies": {
       "docsify-tools": "^1.0.20"
     }
