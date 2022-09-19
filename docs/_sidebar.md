@@ -1,17 +1,23 @@
-  - configuration
-    - [initializer](/configuration/initializer.md)
-    - [theming](/configuration/theming.md)
-  - content
-    - [attributes](/content/attributes.md)
-    - [forms](/content/forms.md)
-    - [ocl](/content/ocl.md)
-  - getting_started
-    - [useful links](/getting_started/useful-links.md)
-  - infrastructure
-    - [local](/infrastructure/local.md)
-    - [qa](/infrastructure/qa.md)
-  - lifecycle
-    - [data protection](/lifecycle/data-protection.md)
-    - [handover](/lifecycle/handover.md)
-    - [maintenance](/lifecycle/maintenance.md)
-    - [monitoring](/lifecycle/monitoring.md)
+  - 0. Getting started
+    - [useful links](/0.%20Getting%20started/useful-links.md)
+  - 2. Requirements  🟡
+    - [forms](/2.%20Requirements%20%20🟡/forms.md)
+    - [metadata](/2.%20Requirements%20%20🟡/metadata.md)
+    - [non functional](/2.%20Requirements%20%20🟡/non-functional.md)
+    - [user stories](/2.%20Requirements%20%20🟡/user%20stories.md)
+    - [vision](/2.%20Requirements%20%20🟡/vision.md)
+  - 3. Configure  🟡
+    - [attributes](/3.%20Configure%20%20🟡/attributes.md)
+    - [content](/3.%20Configure%20%20🟡/content.md)
+    - [modules](/3.%20Configure%20%20🟡/modules.md)
+    - [theming](/3.%20Configure%20%20🟡/theming.md)
+  - 3. Setup  🟡
+    - [local_environment](/3.%20Setup%20%20🟡/local_environment.md)
+  - 6. Deploy
+    - [data protection](/6.%20Deploy/data-protection.md)
+    - [pipelines](/6.%20Deploy/pipelines.md)
+    - [production_environment](/6.%20Deploy/production_environment.md)
+  - 7. Maintain
+    - [handover](/7.%20Maintain/handover.md)
+    - [monitoring](/7.%20Maintain/monitoring.md)
+    - [update](/7.%20Maintain/update.md)
